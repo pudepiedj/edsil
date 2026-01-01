@@ -477,6 +477,23 @@ footer {
   margin: 0;
 }
 
+.scroll-indicator {
+    position: fixed;
+    bottom: 30px;
+    left: 50vw;
+    transform: translateX(-50%);
+    animation: bounce 2s infinite;
+    font-size: 3rem;
+    opacity: 0.8;
+    color: white;
+    z-index: 100;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(10px); }
+  }
+
 /* Utilities */
 .text-center { text-align: center; }
 .text-muted { color: var(--color-text-muted); }
@@ -524,23 +541,5 @@ footer {
   .footer-content {
     flex-direction: column;
     text-align: center;
-  }
-
-  .scroll-indicator {
-    position: fixed;
-    bottom: 30px;
-    left: 50vw;
-    transform: translateX(-50%);
-    animation: bounce 2s infinite;
-    font-size: 3rem;
-    opacity: 0.8;
-    color: white;
-    z-index: 100;
-  }
-  }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateX(-50%) translateY(0); }
-    50% { transform: translateX(-50%) translateY(10px); }
   }
 }
