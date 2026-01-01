@@ -478,7 +478,7 @@ footer {
 }
 
 .scroll-indicator {
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   left: 50vw;
   transform: translateX(-50%);
