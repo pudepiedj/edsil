@@ -527,14 +527,16 @@ footer {
   }
 
   .scroll-indicator {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
-    left: 50%;
+    left: 50vw;
     transform: translateX(-50%);
     animation: bounce 2s infinite;
-    font-size: 2rem;
-    opacity: 0.7;
+    font-size: 3rem;
+    opacity: 0.8;
     color: white;
+    z-index: 100;
+  }
   }
 
   @keyframes bounce {
