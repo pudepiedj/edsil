@@ -1,91 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/styles-additions.css' | relative_url }}">
-    <style>
-        /* Blog-specific styles */
-        .blog-list {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .blog-list article {
-            margin-bottom: 2em;
-            padding-bottom: 1.5em;
-            border-bottom: 1px solid #ddd;
-        }
-        .blog-list article:last-child {
-            border-bottom: none;
-        }
-        .blog-list h2 {
-            margin-bottom: 0.3em;
-        }
-        .blog-list h2 a {
-            text-decoration: none;
-            color: #2c5282;
-        }
-        .blog-list h2 a:hover {
-            text-decoration: underline;
-        }
-        .post-meta {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 0.8em;
-        }
-        .post-excerpt {
-            line-height: 1.6;
-        }
-        .post-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.7;
-        }
-        .post-content h1 {
-            margin-bottom: 0.3em;
-        }
-        .post-content img {
-            max-width: 100%;
-            height: auto;
-            margin: 1em 0;
-        }
-        .back-link {
-            margin-top: 2em;
-            padding-top: 1em;
-            border-top: 1px solid #ddd;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}EDSIL - Education Development Solutions International{% endif %}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}EDSIL</title>
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <nav>
-        <a href="index.html" class="logo">EDSIL</a>
-        <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="mission.html">Mission</a></li>
-            <li><a href="ride-ai.html">RIDE:AI</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </nav>
-    </header>
 
-    <main>
-        {{ content }}
-    </main>
+  <div class="bg-gradient"></div>
 
-    <footer>
-        <p>&copy; {{ 'now' | date: "%Y" }} EDSIL - Education Development Solutions International</p>
-    </footer>
+  <header>
+    <nav>
+      <a href="{{ '/' | relative_url }}" class="logo">EDSIL</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/mission.html' | relative_url }}">Mission</a></li>
+        <li><a href="{{ '/ride-ai.html' | relative_url }}">RIDE:AI</a></li>
+        <li><a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2026 Education Development Solutions International Limited</p>
+        <p>East Tuddenham, Norfolk, United Kingdom</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
