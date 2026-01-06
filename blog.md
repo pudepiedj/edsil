@@ -7,9 +7,11 @@ permalink: /blog/
   <div class="container">
     <div class="hero-content">
       <p class="hero-tagline">Blog</p>
-      <h1>Thoughts on <span class="highlight">Education and Leadership</span></h1>
+      <h1>Thoughts on <span class="highlight">Education for an AI World</span></h1>
       <p class="hero-lead">
-        Reflections from decades of founding and leading international schools.
+        Friend or Foe? Opportunity or Threat?
+        AI can transform education, but should it? And, if so, how and to what extent?
+        Reflections from decades of teaching, and founding and leading international schools.
       </p>
     </div>
   </div>
