@@ -25,7 +25,7 @@ The boundary can be influenced both by its bulk - because they are in an insepar
 
 Attempts to educate by forcing brains to absorb information they resist are futile, damaging and dangerous. They involve taking an immeasurably complex object and attempting to try to force it into a configuration to which it is intrinsically opposed and unsuited. Brains can only be at their best when they are allowed to develop in their own unique ways; forcing them to develop according to externally-dictated criteria to learn predetermined things that are inimical damages them, gives rise to potentially dangerous distortions, and is bound ultimately to be futile.
 
-![surfing the AI wave](images/RIDEAI_08.JPG)
+![surfing the AI wave](/images/RIDEAI_08.JPG)
 
 It follows that **Education's Bitter Pill** involves swallowing the unpalatable truth that **what we have been doing since the dawn of time has for the most part been a failure because only a very small proportion of the brains we have subjected to this torture have been compatible with it, susceptible to it and, to put it in more vernacular terms, interested in learning what we have thought it necessary to teach**. Education's Bitter Pill is that we have been force-feeding one of the most sophisticated and complex objects in the known universe with a régime of information that has acted like a poison, forcing the brain to become something that it can only become by allowing itself to be damaged, sometimes destroyed.
 

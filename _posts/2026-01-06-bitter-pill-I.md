@@ -10,10 +10,10 @@ In a very short piece written in 2019 called *The Bitter Lesson*, Rich Sutton of
 This is what he writes:
 
 > We have to learn the bitter lesson that building in how we think we think does not work in the long run. The bitter lesson is based on the historical observations that
-- 1) AI researchers have often tried to build knowledge into their agents,
-- 2) this always helps in the short term, and is personally satisfying to the researcher, but
-- 3) in the long run it plateaus and even inhibits further progress, and
-- 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation by search and learning.
+> - 1) AI researchers have often tried to build knowledge into their agents,
+> - 2) this always helps in the short term, and is personally satisfying to the researcher, but
+> - 3) in the long run it plateaus and even inhibits further progress, and
+> - 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation by search and learning.
 > The eventual success is tinged with bitterness, and often incompletely digested, because it is success over a favored, human-centric approach.
 
 
