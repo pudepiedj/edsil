@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Welcome to the New EDSIL Blog"
+title: "Knowledge is a Fractal"
 date: 2026-01-06
 author: John Puddefoot
 ---
-# Knowledge is a Fractal
+## Knowledge is a Fractal
 
 We sometimes imagine that our learning-journey is like a path that stretches away in front of us and leads towards a fixed destination, but what if there is no path and even less a fixed destination? What if knowledge is like a fractal that **reveals more and more of itself** and - far more significantly - **creates more of itself** at every stage?
 
@@ -14,7 +14,7 @@ When we learn to count as tiny children we hardly have any sense of the rich wor
 
 All this illustrates our claim: knowledge is a fractal; it endlessly enriches itself as we penetrate further and further into its depths; there is literally 'no end to our exploring' even if T.S. Eliot appeared to say otherwise.
 
-## Learning When Enough is Enough
+### Learning When Enough is Enough
 If knowledge is a fractal, we can never exhaust it; we can never reach the end of our exploring; however much we may know, there will always be more to know.
 
 So if complete knowledge is impossible, when should we be satisfied with what we know? When is 'Enough Enough'?

@@ -1,21 +1,24 @@
 ---
 layout: post
-title: "Welcome to the New EDSIL Blog"
+title: "Education's Bitter Pill - I"
 date: 2026-01-06
 author: John Puddefoot
 ---
 
-# Education's Bitter Pill - I
+## Education's Bitter Pill - I
 
 In a very short piece written in 2019 called *The Bitter Lesson*, Rich Sutton of the University of Texas at Austin made the observation that **human intuitions about how best to program computers to solve problems and play games have been shown to be flawed**; in particular, the approach that believes that what we have to do is reproduce in machines - specifically in different versions of AI embodied in Large Language Models (LLMs) - **the same thinking-processes that we believe human beings to engage in**.
 
 This is what he writes:
 
-```
-We have to learn the bitter lesson that building in how we think we think does not work in the long run. The bitter lesson is based on the historical observations that 1) AI researchers have often tried to build knowledge into their agents, 2) this always helps in the short term, and is personally satisfying to the researcher, but 3) in the long run it plateaus and even inhibits further progress, and 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation by search and learning. The eventual success is tinged with bitterness, and often incompletely digested, because it is success over a favored, human-centric approach.
-```
+> We have to learn the bitter lesson that building in how we think we think does not work in the long run. The bitter lesson is based on the historical observations that
+- 1) AI researchers have often tried to build knowledge into their agents,
+- 2) this always helps in the short term, and is personally satisfying to the researcher, but
+- 3) in the long run it plateaus and even inhibits further progress, and
+- 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation by search and learning.
+> The eventual success is tinged with bitterness, and often incompletely digested, because it is success over a favored, human-centric approach.
 
-Now consider this point in relation to education where almost all our efforts are dedicated to **building knowledge into children/pupils/students**. External agencies - usually governments through the controlling mechanisms of examination régimes - decide **what needs to be known**; controlling agencies such as educational institutions and examination boards assess **whether what needs to be known has been learned** in ways they deem appropriate; life-defining agencies such as employers and societies then decide **whether the learning has been done to a sufficient standard and in sufficient quantity and quality** to merit reward in terms both of role and remuneration.
+Now let us consider this point in relation to education where almost all our efforts are dedicated to **building knowledge into children/pupils/students**. External agencies - usually governments through the controlling mechanisms of examination régimes - decide **what needs to be known**; controlling agencies such as educational institutions and examination boards assess **whether what needs to be known has been learned** in ways they deem appropriate; life-defining agencies such as employers and societies then decide **whether the learning has been done to a sufficient standard and in sufficient quantity and quality** to merit reward in terms both of role and remuneration.
 
 ***But suppose that building knowledge into students is as futile as building it into artificial intelligence engines***, that whatever gains are made for students, institutions, societies and nation-states are beneficial in the short term, but in the longer term only inhibit further progress by **incarcerating every successive generation in the standards and ambitions of the past**. By definition, what can be taught and learned on such a scheme is **what is already known**. Those who succeed best turn out not to be those who have most wholeheartedly acquiesced in this and 'successfully' navigated its obstacles, but those who have rejected it and instead followed their own interests, abilities and ambitions.
 
