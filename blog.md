@@ -11,7 +11,7 @@ permalink: /blog/
       <p class="hero-lead">
         Friend or Foe? Opportunity or Threat?
         AI can transform education, but should it? And, if so, how and to what extent?
-        Reflections from decades of teaching, and founding and leading international schools.
+        Reflections from decades of teaching, founding and leading international schools.
       </p>
     </div>
   </div>
