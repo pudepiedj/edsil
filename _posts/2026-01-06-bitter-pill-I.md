@@ -5,8 +5,6 @@ date: 2026-01-06
 author: John Puddefoot
 ---
 
-## Education's Bitter Pill - I
-
 In a very short piece written in 2019 called *The Bitter Lesson*, Rich Sutton of the University of Texas at Austin made the observation that **human intuitions about how best to program computers to solve problems and play games have been shown to be flawed**; in particular, the approach that believes that what we have to do is reproduce in machines - specifically in different versions of AI embodied in Large Language Models (LLMs) - **the same thinking-processes that we believe human beings to engage in**.
 
 This is what he writes:

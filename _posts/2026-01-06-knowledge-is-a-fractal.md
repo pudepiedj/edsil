@@ -4,7 +4,6 @@ title: "Knowledge is a Fractal"
 date: 2026-01-06
 author: John Puddefoot
 ---
-## Knowledge is a Fractal
 
 We sometimes imagine that our learning-journey is like a path that stretches away in front of us and leads towards a fixed destination, but what if there is no path and even less a fixed destination? What if knowledge is like a fractal that **reveals more and more of itself** and - far more significantly - **creates more of itself** at every stage?
 
