@@ -7,7 +7,7 @@ All pages with dropdown header navigation. You just need to add your content.
 ```
 index.html              - Home page (hero + MORE button)
 mission.html            - Mission page
-ride-ai.html            - RIDE:AI overview
+ride-ai.html            - RIDE⋮AI overview
 ai-education.html       - AI and Education
 programme.html          - The Programme
 portfolio.html          - Portfolio overview
