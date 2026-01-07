@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RIDE:AI - Revolutionising Interest-Driven Education through Artificial Intelligence.">
+  <title>RIDE:AI | EDSIL</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">EDSIL</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="mission.html">Mission</a></li>
+        <li>
+          <button onclick="this.parentElement.classList.toggle('dropdown-open')">RIDE:AI <span class="dropdown-arrow">▼</span></button>
+          <div class="dropdown">
+            <a href="ride-ai.html" class="active">Overview</a>
+            <a href="ai-education.html">AI and Education</a>
+            <a href="programme.html">The Programme</a>
+          </div>
+        </li>
+        <li>
+          <button onclick="this.parentElement.classList.toggle('dropdown-open')">Portfolio <span class="dropdown-arrow">▼</span></button>
+          <div class="dropdown">
+            <a href="portfolio.html">Overview</a>
+            <div class="dropdown-divider"></div>
+            <a href="aga-khan-academy.html">Aga Khan Academy</a>
+            <a href="uwc-dilijan.html">UWC Dilijan</a>
+            <a href="yiwu-academy.html">Yiwu Academy</a>
+            <a href="xuzhou-academy.html">Xuzhou Academy</a>
+            <a href="judge-business-academy.html">Judge Business Academy</a>
+            <a href="dragon-spruce.html">Dragon Spruce</a>
+          </div>
+        </li>
+        <li>
+          <button onclick="this.parentElement.classList.toggle('dropdown-open')">About <span class="dropdown-arrow">▼</span></button>
+          <div class="dropdown">
+            <a href="about.html">Overview</a>
+            <div class="dropdown-divider"></div>
+            <a href="john-puddefoot.html">John Puddefoot</a>
+            <a href="susan-jesudason.html">Susan Jesudason</a>
+          </div>
+        </li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <div class="container">
+      <header class="page-header">
+        <h1>RIDE:AI</h1>
+        <p class="page-intro"><!-- YOUR INTRO TEXT --></p>
+      </header>
+
+      <section class="content-section">
+        <!-- YOUR CONTENT -->
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2026 Education Development Solutions International Limited</p>
+        <p>East Tuddenham, Norfolk, United Kingdom</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
