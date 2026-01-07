@@ -122,6 +122,7 @@ img {
 .btn--primary {
   background: var(--color-accent);
   color: var(--color-bg);
+  margin: 10px 10px 10px 10px;
 }
 
 .btn--primary:hover {
