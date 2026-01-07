@@ -1,0 +1,18 @@
+title: EDSIL
+description: Education Development Solutions International
+url: "https://edsil.org"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Pagination (optional - enable if you want paginated blog index)
+# paginate: 10
+# paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - README copy.md
+  - .DS_Store

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}EDSIL - Education Development Solutions International{% endif %}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}EDSIL</title>
+  <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+</head>
+<body>
+
+  <div class="bg-gradient"></div>
+
+  <header>
+    <nav>
+      <a href="{{ '/' | relative_url }}" class="logo">EDSIL</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/mission.html' | relative_url }}">Mission</a></li>
+        <li><a href="{{ '/ride-ai.html' | relative_url }}">RIDE:AI</a></li>
+        <li><a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a></li>
+        <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
+        <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>© 2026 Education Development Solutions International Limited</p>
+        <p>East Tuddenham, Norfolk, United Kingdom</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
