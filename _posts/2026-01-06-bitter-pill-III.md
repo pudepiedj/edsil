@@ -43,4 +43,4 @@ Yet almost all education has until relatively recently, and then only in the mos
 
 ---
 
-*If you'd like to discuss any of the ideas shared here, please get in touch via the [contact page](/contact.html).*
+*If you'd like to discuss any of the ideas shared here, please get in touch via the [contact page](/contact/).*

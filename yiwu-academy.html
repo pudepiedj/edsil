@@ -1,100 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Yiwu International Academy - International education in Zhejiang, China.">
-  <title>Yiwu Academy | EDSIL</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+---
+layout: default
+title: Yiwu Academy
+description: A new school in Yiwu, Zhejiang Province
+---
 
-  <header>
-    <nav>
-      <a href="index.html" class="logo">
-  <img src="/favicon.ico" alt="" style="height: 1.2em; vertical-align: middle; margin-right: 0.3em;">EDSIL
-</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="mission.html" >Mission</a></li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">RIDE⋮AI <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="ride-ai.html">Overview</a>
-            <a href="ai-education.html">AI and Education</a>
-            <a href="problem.html">The Problem</a>
-            <a href="solution.html">The Solution</a>
-          </div>
-        </li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">Portfolio <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="portfolio.html">Overview</a>
-            <div class="dropdown-divider"></div>
-            <a href="aga-khan-academy.html">Aga Khan Academy</a>
-            <a href="uwc-dilijan.html">UWC Dilijan</a>
-            <a href="yiwu-academy.html">Yiwu International Academy</a>
-            <a href="suzhou-academy.html">Suzhou International Academy</a>
-            <a href="xuzhou-academy.html">Xuzhou Academy</a>
-            <a href="judge-business-academy.html">Judge Business Academy</a>
-            <a href="dragon-spruce.html">Dragon Spruce</a>
-          </div>
-        </li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">About <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="about.html">Overview</a>
-            <div class="dropdown-divider"></div>
-            <a href="john-puddefoot.html">John Puddefoot</a>
-            <a href="susan-jesudason.html">Susan Jesudason</a>
-          </div>
-        </li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="podcast.html" class="active">Podcast</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<main class="page-main">
+  <div class="container">
+    <header class="page-header">
+      <p class="card-location">Zhejiang, China</p>
+      <h1>Yiwu International Academy</h1>
+      <p class="page-intro"><!-- YOUR INTRO TEXT --></p>
+    </header>
 
-  <main class="page-main">
-    <div class="container">
-      <header class="page-header">
-        <p class="card-location">Zhejiang, China</p>
-        <h1>Yiwu International Academy</h1>
-        <p class="page-intro"><!-- YOUR INTRO TEXT --></p>
-      </header>
-
-      <section class="content-section">
-        <div class="school-content">
-          <div class="school-image">
-            <img src="images/Yiwu2.jpg" alt="Yiwu International Academy" style="width: 60vw">
-          </div>
-          
-          <div class="school-text">
-            <p>As a sister school to Suzhou International Academy, BFSU, Yiwu International Academy opened to Grades 1–7 in September 2019 in glorious buildings occupying a 250mu (17 hectare) site in western Yiwu, the "commodities capital" of China.</p>
-            
-            <p>YIA offers the Chinese National Curriculum with strong additional English bilingual elements in Grades 1–9. The High School offers IGCSEs and A Levels.</p>
-            
-            <p>John served as Honorary Principal from 2017 to 2020, developing curriculum bridging Chinese national educational requirements with international pathways and working with leadership on institutional strategy and quality assurance during a period of significant growth.</p>
+    <section class="content-section">
+      <div class="school-content">
+        <div class="school-image">
+          <img src="images/Yiwu2.jpg" alt="Yiwu International Academy" style="width: 60vw">
         </div>
-      </section>
-
-      <section class="content-section">
-        <a href="portfolio.html" class="btn">← Back to Portfolio</a>
-      </section>
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <p>© 2026 Education Development Solutions International Limited</p>
-        <p>East Tuddenham, Norfolk, United Kingdom</p>
+        
+        <div class="school-text">
+          <p>As a sister school to Suzhou International Academy, BFSU, Yiwu International Academy opened to Grades 1–7 in September 2019 in glorious buildings occupying a 250mu (17 hectare) site in western Yiwu, the "commodities capital" of China.</p>
+          
+          <p>YIA offers the Chinese National Curriculum with strong additional English bilingual elements in Grades 1–9. The High School offers IGCSEs and A Levels.</p>
+          
+          <p>John served as Honorary Principal from 2017 to 2020, developing curriculum bridging Chinese national educational requirements with international pathways and working with leadership on institutional strategy and quality assurance during a period of significant growth.</p>
       </div>
-    </div>
-  </footer>
+    </section>
 
-</body>
-</html>
+    <section class="content-section">
+      <a href="/portfolio/" class="btn">← Back to Portfolio</a>
+    </section>
+  </div>
+</main>

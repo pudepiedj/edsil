@@ -45,4 +45,4 @@ But much more needs to be said ...
 
 ---
 
-*If you'd like to discuss any of the ideas shared here, please get in touch via the [contact page](/contact.html).*
+*If you'd like to discuss any of the ideas shared here, please get in touch via the [contact page](/contact/).*
