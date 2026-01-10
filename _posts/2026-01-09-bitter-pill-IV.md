@@ -5,6 +5,8 @@ date: 2026-01-09
 author: John Puddefoot
 ---
 
+Interest-driven learning makes a lot of sense to most people, but how do we assess whether pupils are genuinely engaged and interested rather than merely being compliant? And how do we ascertain whether, by pursuing their interests, children and young adults cover the material their societies think necessary and worthwhile?
+
 ## Interest and Energy
 
 One of the simplest ways to detect what someone is interested in is to see *what energises them*. If they willingly engage with something when there is no external pressure, nothing obviously at stake, no clear reason other than their enjoyment, and yet they do it energetically and enthusiastically anyway, following the Golden Principle of 'doing something you gladly do for nothing', then it is **highly likely that they are passionately interested in it**.
