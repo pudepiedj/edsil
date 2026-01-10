@@ -28,7 +28,7 @@
         <li>
           <button onclick="this.parentElement.classList.toggle('dropdown-open')">RIDE⋮AI <span class="dropdown-arrow">▼</span></button>
           <div class="dropdown">
-            <a href="{{ '/ride-ai.html' | relative_url }}">Overview</a>
+            <a href="{{ '/ride-ai/' | relative_url }}">Overview</a>
             <a href="{{ '/ai-education.html' | relative_url }}">AI and Education</a>
             <a href="{{ '/problem.html' | relative_url }}">The Problem</a>
             <a href="{{ '/solution.html' | relative_url }}">The Solution</a>
@@ -58,7 +58,7 @@
           </div>
         </li>
         <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
-        <li><a href="{{ '/podcast.html' | relative_url }}"{% if page.url == '/podcast.html' %} class="active"{% endif %}>Podcast</a></li>
+        <li><a href="{{ '/podcast/' | relative_url }}"{% if page.url == '/podcast.html' %} class="active"{% endif %}>Podcast</a></li>
         <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
       </ul>
     </nav>
