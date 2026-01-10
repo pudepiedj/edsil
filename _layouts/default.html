@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
   {% include analytics.html %}
 </head>
-<body>
+
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
   <div class="bg-gradient"></div>
 
