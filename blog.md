@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-description:/blog/
+description: Blog pages
 ---
 <section class="hero">
   <div class="container">
