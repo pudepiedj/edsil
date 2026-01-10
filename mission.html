@@ -1,121 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="EDSIL Mission - What we do and why education matters in an AI world.">
-  <title>Mission | EDSIL</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+---
+layout: default
+title: Mission
+permalink: /mission.html
+---
 
-  <header>
-    <nav>
-      <a href="index.html" class="logo">
-  <img src="/favicon.ico" alt="" style="height: 1.2em; vertical-align: middle; margin-right: 0.3em;">EDSIL
-</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="mission.html" class="active">Mission</a></li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">RIDE⋮AI <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="ride-ai.html">Overview</a>
-            <a href="ai-education.html">AI and Education</a>
-            <a href="problem.html">The Problem</a>
-            <a href="solution.html">The Solution</a>
-          </div>
-        </li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">Portfolio <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="portfolio.html">Overview</a>
-            <div class="dropdown-divider"></div>
-            <a href="aga-khan-academy.html">Aga Khan Academy</a>
-            <a href="uwc-dilijan.html">UWC Dilijan</a>
-            <a href="yiwu-academy.html">Yiwu International Academy</a>
-            <a href="suzhou-academy.html">Suzhou International Academy</a>
-            <a href="xuzhou-academy.html">Xuzhou Academy</a>
-            <a href="judge-business-academy.html">Judge Business Academy</a>
-            <a href="dragon-spruce.html">Dragon Spruce</a>
-          </div>
-        </li>
-        <li>
-          <button onclick="this.parentElement.classList.toggle('dropdown-open')">About <span class="dropdown-arrow">▼</span></button>
-          <div class="dropdown">
-            <a href="about.html">Overview</a>
-            <div class="dropdown-divider"></div>
-            <a href="john-puddefoot.html">John Puddefoot</a>
-            <a href="susan-jesudason.html">Susan Jesudason</a>
-          </div>
-        </li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="podcast.html" class="active">Podcast</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<main class="page-main">
+  <div class="container">
+    <header class="page-header">
+      <h1>Our Mission</h1>
+      <p class="page-intro">Our mission is to enable education to benefit from the opportunities of AI.</p>
+    </header>
 
-  <main class="page-main">
+    <section class="statement">
     <div class="container">
-      <header class="page-header">
-        <h1>Our Mission</h1>
-        <p class="page-intro">Our mission is to enable education to benefit from the opportunities of AI.</p>
-      </header>
+      <p class="statement-text">
+        The old model assumed we learn to earn qualifications, to get jobs, to make a living. But that chain breaks when <span class="accent">AI transforms the employment landscape</span>. We need a new philosophy: <span class="accent">learning as an end in itself</span>.
+      </p>
+      <a href="ride-ai.html" class="btn btn--primary">Explore our approach</a>
+    </div>
+  </section>
 
-      <section class="statement">
-      <div class="container">
-        <p class="statement-text">
-          The old model assumed we learn to earn qualifications, to get jobs, to make a living. But that chain breaks when <span class="accent">AI transforms the employment landscape</span>. We need a new philosophy: <span class="accent">learning as an end in itself</span>.
-        </p>
-        <a href="ride-ai.html" class="btn btn--primary">Explore our approach</a>
+  <section class="experience-section">
+    <div class="container">
+      <div class="experience-header">
+        <div>
+          <h2>Our Experience</h2>
+          <p class="text-muted">Schools founded and led across the UK, India, Armenia, and China.</p>
+        </div>
+        <a href="portfolio.html" class="btn btn--primary">View full portfolio</a>
       </div>
-    </section>
-
-    <section class="experience-section">
-      <div class="container">
-        <div class="experience-header">
-          <div>
-            <h2>Our Experience</h2>
-            <p class="text-muted">Schools founded and led across the UK, India, Armenia, and China.</p>
-          </div>
-          <a href="portfolio.html" class="btn btn--primary">View full portfolio</a>
+      
+      <div class="experience-grid">
+        <div class="experience-item">
+          <p class="location">India</p>
+          <h3>The Aga Khan Academy, Hyderabad</h3>
+          <p>Founding Head. Shaped and established from ground-breaking to IB authorisation, establishing one of India's leading international schools.</p>
         </div>
         
-        <div class="experience-grid">
-          <div class="experience-item">
-            <p class="location">India</p>
-            <h3>The Aga Khan Academy, Hyderabad</h3>
-            <p>Founding Head. Shaped and established from ground-breaking to IB authorisation, establishing one of India's leading international schools.</p>
-          </div>
-          
-          <div class="experience-item">
-            <p class="location">Armenia</p>
-            <h3>UWC Dilijan</h3>
-            <p>Part of the founding team for this United World College, bringing the UWC mission to the Caucasus.</p>
-          </div>
-          
-          <div class="experience-item">
-            <p class="location">United Kingdom</p>
-            <h3>Eton College</h3>
-            <p>Former Head of Mathematics and Deputy Head (Curriculum) at one of the UK's most historic educational institutions.</p>
-          </div>
+        <div class="experience-item">
+          <p class="location">Armenia</p>
+          <h3>UWC Dilijan</h3>
+          <p>Part of the founding team for this United World College, bringing the UWC mission to the Caucasus.</p>
+        </div>
+        
+        <div class="experience-item">
+          <p class="location">United Kingdom</p>
+          <h3>Eton College</h3>
+          <p>Former Head of Mathematics and Deputy Head (Curriculum) at one of the UK's most historic educational institutions.</p>
         </div>
       </div>
-    </section>
     </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <p>© 2026 Education Development Solutions International Limited</p>
-        <p>East Tuddenham, Norfolk, United Kingdom</p>
-      </div>
-    </div>
-  </footer>
-
-</body>
-</html>
+  </section>
+  </div>
+</main>
