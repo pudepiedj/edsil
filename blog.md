@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
+description:/blog/
 ---
 <section class="hero">
   <div class="container">
