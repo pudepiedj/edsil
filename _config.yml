@@ -5,7 +5,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
-description:/blog/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Pagination (optional - enable if you want paginated blog index)
 # paginate: 10
