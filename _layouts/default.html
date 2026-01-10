@@ -23,13 +23,13 @@
         <span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/index/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/mission.html' | relative_url }}">Mission</a></li>
         <li>
           <button onclick="this.parentElement.classList.toggle('dropdown-open')">RIDE⋮AI <span class="dropdown-arrow">▼</span></button>
           <div class="dropdown">
             <a href="{{ '/ride-ai/' | relative_url }}">Overview</a>
-            <a href="{{ '/ai-education.html' | relative_url }}">AI and Education</a>
+            <a href="{{ '/ai-education/' | relative_url }}">AI and Education</a>
             <a href="{{ '/problem.html' | relative_url }}">The Problem</a>
             <a href="{{ '/solution.html' | relative_url }}">The Solution</a>
           </div>
@@ -39,27 +39,28 @@
           <div class="dropdown">
             <a href="{{ '/portfolio.html' | relative_url }}">Overview</a>
             <div class="dropdown-divider"></div>
-            <a href="{{ '/aga-khan-academy.html' | relative_url }}">Aga Khan Academy</a>
+            <a href="{{ '/aga-khan-academy/' | relative_url }}">Aga Khan Academy</a>
             <a href="{{ '/uwc-dilijan.html' | relative_url }}">UWC Dilijan</a>
             <a href="{{ '/yiwu-academy.html' | relative_url }}">Yiwu International Academy</a>
             <a href="{{ '/suzhou-academy.html' | relative_url }}">Suzhou International Academy</a>
             <a href="{{ '/xuzhou-academy.html' | relative_url }}">Xuzhou Academy</a>
             <a href="{{ '/judge-business-academy.html' | relative_url }}">Judge Business Academy</a>
-            <a href="{{ '/dragon-spruce.html' | relative_url }}">Dragon Spruce</a>
+            <a href="{{ '/dragon-spruce/' | relative_url }}">Dragon Spruce</a>
+            <a href="{{ '/eton-college/' | relative_url }}">Eton College</a>
           </div>
         </li>
         <li>
           <button onclick="this.parentElement.classList.toggle('dropdown-open')">About <span class="dropdown-arrow">▼</span></button>
           <div class="dropdown">
-            <a href="{{ '/about.html' | relative_url }}">Overview</a>
+            <a href="{{ '/about/' | relative_url }}">Overview</a>
             <div class="dropdown-divider"></div>
-            <a href="{{ '/john-puddefoot.html' | relative_url }}">John Puddefoot</a>
+            <a href="{{ '/john-puddefoot/' | relative_url }}">John Puddefoot</a>
             <a href="{{ '/susan-jesudason.html' | relative_url }}">Susan Jesudason</a>
           </div>
         </li>
         <li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
         <li><a href="{{ '/podcast/' | relative_url }}"{% if page.url == '/podcast.html' %} class="active"{% endif %}>Podcast</a></li>
-        <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
       </ul>
     </nav>
   </header>
