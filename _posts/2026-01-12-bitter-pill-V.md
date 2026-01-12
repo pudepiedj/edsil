@@ -9,11 +9,11 @@ author: John Puddefoot
     
 The complex relationship between our collective and individual interests is evident in the way we frame the purpose of education and how we balance its competing objectives.
 
-- At one level it is clear that education serves social needs by providing cultural continuity, necessary knowledge and skills, familiarity with the basic structure and operation of a nation-state, and numrous other things to do with physical and mental well-being as they impact the collective.
+- At one level it is clear that education serves social needs by providing cultural continuity, necessary knowledge and skills, familiarity with the basic structure and operation of a nation-state, and numrous other things to do with physical and mental well-being as they impact the relationship between individual citizens and the collective.
 
-- At another level it is - or should be - equally clear that education serves the needs of individuals/persons to make the most of their lives, optimise their fulfilment and benefit from the contribution they make to the lives of others.
+- At another level it is - or should be - equally clear that education should enable individuals/persons to make the most of their lives, optimise their fulfilment and contribute to the lives of others, their country and the world in a relationship of mutual benefit.
 
-The two objectives are not always harmonious, and for a great deal of history have seemed to conflict: what governments and employers want sits somewhat uncomfortably with what individeuals benefit from.
+The two objectives are not always harmonious, sometimes felt to be incompatible, opeb to exploitation, and for a great deal of history at different times and places have seemed to conflict: what governments and employers want sits somewhat uncomfortably with what individuals believe themselves to benefit from.
 
 For most of human history there was either no formal education, or the bare minimum to satisfy the needs of a collective ruled over by an élite. Insofar as education was provided at all it was geared towards perceived collective necessities: agriculture or soldiery for males; housekeeping and motherhood for women. Both, while they served the needs of villages, ultimately also served the needs of the rich and powerful for whom quite different kinds of education were often provided. During the Industrial Revolution more widespread education arose not so much because of its importance for human thriving as because workers were needed who could operate machines and understand complex processes. The rise of what we might call "education for its own sake" is a recent phenomenon, and far from universal even now; something that scarcely predates the Nineteenth Century for any but a ruling élite.
 
