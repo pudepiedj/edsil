@@ -9,7 +9,7 @@ author: John Puddefoot
     
 The complex relationship between our collective and individual interests is evident in the way we frame the purpose of education and how we balance its competing objectives.
 
-- At one level it is clear that education serves social needs by providing cultural continuity, necessary knowledge and skills, familiarity with the basic structure and operation of a nation-state, and numrous other things to do with physical and mental well-being as they impact the relationship between individual citizens and the collective.
+- At one level it is clear that education serves social needs by providing cultural continuity, necessary knowledge and skills, familiarity with the basic structure and operation of a nation-state, and numerous other things to do with physical and mental well-being as they impact the relationship between individual citizens and the collective.
 
 - At another level it is - or should be - equally clear that education should enable individuals/persons to make the most of their lives, optimise their fulfilment and contribute to the lives of others, their country and the world in a relationship of mutual benefit.
 
