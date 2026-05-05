@@ -1,4 +1,9 @@
-
+---
+layout: post
+title: "Education's Bitter Pill - VI"
+date: 2026-05-05
+author: John Puddefoot
+---
 # Endopraxis and Exopraxis
 
 Until very recently the objective of education included and to a considerable extent concentrated on providing individuals with the abilities they would need to function safely, competently, effectively and usefully in society out of resources they **carried around with them**. We call these inculcated skills and the associated knowledge **endopraxis**: practices we command that originate and are supported by resources within ourselves.
